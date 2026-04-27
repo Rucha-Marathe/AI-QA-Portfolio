@@ -34,13 +34,16 @@ python -m venv aiqa-env
 ```
 
 ### 3. Troubleshooting & Resolution
+While setting up the virtual environment, I encountered a security restriction preventing script execution.
+
 **Error**: `PSSecurityException` (Execution policy disabled).
-**Resolution**:
+**Screenshot of error:**
+![Security Exception Error](image.jpg)
+
+**Resolution Command:**
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 ```
-**Proof**:
-![Environment Setup](Setup1.png)
 
 ### 4. Core Dependencies
 **Tools installed:**

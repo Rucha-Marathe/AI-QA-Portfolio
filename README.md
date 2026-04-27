@@ -1,10 +1,3 @@
-# AI QA Portfolio
-
-This portfolio documents my journey into AI Testing and QA Management.
-
-## Setup
-- Environment: VS Code, Python 3.12, Git
-
 # AI QA Portfolio: Testing & Monitoring Journey
 
 This repository serves as a professional portfolio documenting the implementation of AI-powered quality assurance, including red teaming, RAG validation, and production observability.
@@ -34,17 +27,11 @@ python -m venv aiqa-env
 ```
 
 ### 3. Troubleshooting & Resolution
-While setting up the virtual environment, I encountered a security restriction.
+While setting up the virtual environment, I encountered a security restriction preventing script execution.
 
 **Error**: `PSSecurityException` (Execution policy disabled).
-
 **Screenshot of error:**
-![Security Exception Error](images/Policy Security Error for Windows.png)
-
-**Resolution Command:**
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-```
+![Security Exception Error](images/image.jpg)
 
 **Resolution Command:**
 ```powershell
@@ -56,6 +43,10 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 ```bash
 pip install jupyter pytest
 ```
+
+## Testing Milestones
+- **Lesson 1**: Successfully automated safety logic validation using `pytest`.
+- **Result**: 2/2 tests passed in the `test_ai_logic.py` suite.
 
 ---
 *Maintained by: Rucha Marathe*

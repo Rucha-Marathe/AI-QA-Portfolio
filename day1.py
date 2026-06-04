@@ -72,6 +72,9 @@ while command.lower() != 'quit':
         print('Car stopped.')
     elif command.lower() == 'quit':
         print('Exiting the program...')
+        break
+    elif command.lower()!= 'start' or command.lower() != 'stop' or command.lower() != 'quit':
+         break
 else:
         print('Sorry, I dont understand that')
         

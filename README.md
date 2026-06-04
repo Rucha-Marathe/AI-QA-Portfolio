@@ -45,8 +45,7 @@ pip install jupyter pytest
 ```
 
 ## Testing Milestones
-- **Lesson 1**: Successfully automated safety logic validation using `pytest`.
-- **Result**: 2/2 tests passed in the `test_ai_logic.py` suite.
+
 
 ---
 *Maintained by: Rucha Marathe*

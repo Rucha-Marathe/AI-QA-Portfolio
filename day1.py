@@ -60,21 +60,17 @@
 #     converted_weight = int(weight) / 0.45
 #     print(f'You are {converted_weight} lbs')
 
-command = ''
-while command.lower() != 'quit':
-    command= input('>')
-    print('Start to start the car')
-    print('Stop to stop the car')
-    print('Quit to exit')
+command=""
+while True:
+    command = input('> ')
     if command.lower() == 'start':
         print('Car started...Ready to go!')
     elif command.lower() == 'stop':
         print('Car stopped.')
-    elif command.lower() == 'quit':
-        print('Exiting the program...')
-        break
-    elif command.lower()!= 'start' or command.lower() != 'stop' or command.lower() != 'quit':
-         break
-else:
-        print('Sorry, I dont understand that')
+    elif command.lower() == 'help':
+        print(""start - to start the car
+stop - to stop the car""  )
+else:   
+         print('Sorry, I dont understand that')
         
+    

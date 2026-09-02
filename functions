@@ -1,0 +1,25 @@
+# def user_info(name,age,city):
+#   print("{} is {} years old and lives in {}".format(name,age,city))
+# user_info("John",30,"Toronto")
+
+
+# def user_info(name,age=18,city="New York"):
+#   print("{} is {} years old and lives in {}".format(name,age,city))
+# user_info("Jim")
+
+def user_info(**kwargs):
+  print(kwargs)
+user_info(e="Rucha",city="Sumit")
+
+for number in range(1,11):
+  print(number)
+
+  fruits = ["apple","banana","cherry"]
+  for fruit in fruits:
+    print(fruit)
+
+    temp=40
+    while temp> 30:
+      print("Temparature is {}".format(temp))
+      temp-=1
+      

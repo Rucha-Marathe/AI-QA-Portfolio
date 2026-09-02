@@ -7,15 +7,14 @@ To be an effective AI QA professional, I have standardized my environment around
 
 - **VS Code**: My integrated "Command Center" for code, terminals, and GitHub management.
 - **Python**: The standard language for AI automation, API interaction, and data analysis.
-- **Jupyter**: My "Scratchpad" for prototyping tests and visualizing LLM outputs instantly.
 - **Git & GitHub**: My "Safety Net" for version control, collaboration, and showcasing my work to recruiters.
-- **GitLens**: My "Time Machine" for debugging code changes and tracking authorship.
+
 
 ## Project Infrastructure & Setup
 This project follows professional CI/CD and QA best practices to ensure reproducibility.
 
 ### 1. Development Environment
-- **IDE**: VS Code (Python, GitLens, Jupyter extensions)
+- **IDE**: VS Code (Python)
 - **Git Config**: Configured `user.name` and `user.email` for identity tracking.
 
 ### 2. Isolated Workspace
@@ -39,10 +38,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 ```
 
 ### 4. Core Dependencies
-**Tools installed:**
-```bash
-pip install jupyter pytest
-```
+
 
 ## Testing Milestones
 
